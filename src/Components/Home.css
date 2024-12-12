@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ==== Home/Banner Page ====== */
+.bannerImg img{
+    height: 500px;
+}
+
+
+/* ===== Home page ===== */
+.ProductList{
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+.ProductList h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cardTable{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.cardDetails{
+    box-shadow: 2px 2px 3px 1px lightgrey;
+    width: 250px;
+    margin: 10px;
+}
+.cardDetails img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    /* align-items: center; */
+    margin: 10px 40px;
+}
+.cardBody{
+    position: relative;
+    padding: 0!important;
+}
+.cardBody p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.viewCard {
+    display: flex;
+    /* background-color: black; */
+    
+}
+
+.viewCard button{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    border: 2px solid black;
+}
+.viewCard button:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+}
+
+.viewCard a{
+    text-decoration: none;
+    position: relative;
+    background-color: #F349EC;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+text-align: center;
+    /* width: 100%; */
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+    width: 20%;
+}
+.viewCard a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
+/*============== Product Details Page ==================*/
+.SingleCard{
+    margin: 80px 10px;
+}
+.SingleCard img{
+    height: 300px;
+    width: 100%;
+    /* padding: 20px; */
+    padding: 20px 50px;
+
+}
+.SingleCard{
+    margin: 50px 10px;
+}
+.sordHeaderLink {
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+.sordHeaderLink ul{
+    margin: auto;
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sordHeaderLink ul li{
+    margin: 0 5px;
+}
+.sordHeaderLink ul li a{
+    color: #5b5858;
+    text-decoration: none;
+}
+.productDetails p i{
+    color: #FFB445;
+}
+.pro-details-quality{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.pro-details-quality .pro-plus-minus{
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #5b5858;
+    position: relative;
+    overflow: hidden;
+    /* width: 80px; */
+}
+.pro-details-quality .pro-plus-minus button{
+    width: 30px;
+    height: 40px;
+    border: none;
+    background-color: #FFB445;
+    top: 0;
+    left: 0;
+}
+.pro-details-quality .pro-plus-minus input{
+    /* height: 30px; */
+    width: 45px;
+    border: none;
+    text-align: center;
+}
+.pro-details-quality .addToCard{
+    margin: 0 25px 0 10px;
+}
+.pro-details-quality .addToCard button{
+    border: none;
+    height: 40px;
+    display: inline-block;
+    line-height: 2px;
+    font-weight: 500;
+    color: white;
+    /* background-color: #A749FF; */
+    background-color: #ff5b49;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.productDetails{
+    padding: 10px 20px;
+}
+
+
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0;
+    /* margin: 0 auto; */
+
+}
+.footer h6{
+    font-size: 16px;
+    color: white;
+    /* font-weight: 500; */
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    /* Product Details Page */
+    .SingleCard{
+        margin: 80px 10px;
+    }
+    .SingleCard img{
+        height: 350px;
+        width: 100%;
+        margin: 60px 0;
+        padding: 20px ;
+    }
+    .productDetails{
+        padding: 10px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px) {
+    /* Product Details Page */
+    .SingleCard{
+        margin: 50px 30px;
+        padding: 20px;
+    }
+    .SingleCard img{
+        height: 400px;
+        width: 350px;
+        padding: 20px;
+        margin: 5%;
+        text-align: center;
+    }
+    .productDetails h3{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1440px) {
+    /* ==== Home/Banner Page ====== */
+.bannerImg img{
+    height: 800px;
+}
+
+
+    /*===== Product Details Page =====*/
+    .SingleCard{
+        margin: 50px 10px;
+    }
+    .sordHeaderLink {
+        align-items: center;
+        display: flex;
+        margin-bottom: 70px;
+    }
+    .sordHeaderLink ul{
+        margin: auto;
+        display: flex;
+        position: relative;
+        font-size: 17px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .sordHeaderLink ul li{
+        margin: 0 5px;
+    }
+    .sordHeaderLink ul li a{
+        color: #5b5858;
+        text-decoration: none;
+    }
+
+    .SingleCard img{
+        height: 400px;
+        width: 350px;
+        padding: 20px;
+        margin-left: 25%;
+    }
+    .productDetails{
+        margin-right: 15%;
+        font-size: 18px;
+    }
+    .productDetails h3{
+        margin-bottom: 20px;
+    }
+    .productDetails p{
+        margin-bottom: 20px;
+    }
+    .productDetails p i{
+        color: #FFB445;
+    }
+    .pro-details-quality{
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .pro-details-quality .pro-plus-minus{
+        display: inline-block;
+        height: 40px;
+        border: 1px solid #E8E8E8;
+        position: relative;
+        overflow: hidden;
+        /* width: 80px; */
+    
+    }
+    .pro-details-quality .pro-plus-minus button{
+        width: 30px;
+        height: 40px;
+        border: none;
+        background-color: #E8E8E8;
+    }
+    .pro-details-quality .pro-plus-minus input{
+        height: 40px;
+        width: 60px;
+        border: none;
+        text-align: center;
+    }
+    .pro-details-quality .addToCard{
+        margin: 0 25px 0 10px;
+    }
+    .pro-details-quality .addToCard button{
+        border: none;
+        height: 40px;
+        display: inline-block;
+        line-height: 2px;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        text-transform: uppercase;
+        padding: 20px 20px;
+        font-size: 16px;
+    }
+}

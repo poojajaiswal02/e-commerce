@@ -1,0 +1,138 @@
+.card-page {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 25px;
+}
+
+.productList table {
+    border: 1px solid #ebebeb;
+    width: 100%;
+}
+
+.productList table thead tr {
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.productList table tbody {
+    border: 1px solid #ebebeb;
+    padding: 20px 10px;
+}
+
+.productList table thead>tr th {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.productList table tbody>tr td {
+    padding: 15px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    font-size: 15px;
+    width: 30px;
+}
+
+.productList table tbody>tr td a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.productList table tbody>tr td img {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.product-count .pro-plus-minus {
+    display: flex;
+    height: 40px;
+    border: 1px solid #cbc6c6;
+    /* position: relative; */
+    width: 100px;
+    /* overflow: hidden; */
+}
+
+.product-count .pro-plus-minus button {
+    width: 30px;
+    height: 40px;
+    border: none;
+    background-color: #ece9e6;
+    top: 0;
+    left: 0;
+}
+
+.product-count .pro-plus-minus input {
+    width: 40px;
+    border: none;
+    text-align: center;
+}
+
+.amount {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.totalAmount h4 {
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.checkOut button{
+    padding: 7px +10px;
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    border: 2px solid transparent;
+}
+.checkOut button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+.amount .clearCard {
+    float: right;
+    margin-right: 20px;
+    text-align: end;
+}
+
+.clearCard button {
+    float: right;
+    padding: 3px 12px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    ;
+}
+
+.clearCard button:hover {
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+}
+
+/* .clearCard svg {
+    line-height: 50px;
+} */
+
+
+ 
