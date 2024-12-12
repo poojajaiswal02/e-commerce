@@ -1,7 +1,4 @@
 import React from "react";
-import Banner1 from "./../assets/Banner1.jpg";
-import Banner2 from "./../assets/Banner2.jpg";
-import Banner3 from "./../assets/Banner3.jpg";
 import Banner4 from './../assets/banner4.jpg'
 import './../Components/Home.css'
 // import "./../Components/Banner.css"
